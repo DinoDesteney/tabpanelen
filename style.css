@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+.knoppen{
+    overflow: hidden;
+}
+
+.knoppen li{
+    list-style-type: none;
+    float: left;
+}
+
+.knoppen li.actief{
+    background-color: aqua;
+}
+
+.paneel{
+ /*    display: none; */
+}
+
+.paneel.actief{
+    display: block !important;
+}
+
+.paneel img{
+    max-width: 100%;
+}
